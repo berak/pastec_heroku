@@ -31,5 +31,7 @@ ls
 # -------------------
 wget http://www.pastec.io/files/visualWordsORB.tar.gz
 tar zxf visualWordsORB.tar.gz
+rm visualWordsORB.tar.gz
+
 
 
