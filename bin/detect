@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
+echo "! starting detect in $1"
+
 if [ -f $1/pastec_server ]; then
 	echo "detect ok." && exit 0
 else
